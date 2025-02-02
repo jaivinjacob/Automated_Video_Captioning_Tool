@@ -6,7 +6,7 @@ The **Automated Video Captioning Tool** is a machine learning-powered applicatio
 ---
 
 ## 🚀 Features
-- **Frame-by-frame video captioning** using state-of-the-art **VIT-GPT2 and LSTM models**.
+- **Frame-by-frame video captioning** using state-of-the-art **BLIP and BART models**.
 - **Audio description generation** using Google Text-to-Speech (TTS).
 - **Silent part detection and synchronization** for seamless audio-visual integration.
 - **Web-based interface** for user-friendly interactions.
