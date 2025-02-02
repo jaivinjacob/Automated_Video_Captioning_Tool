@@ -14,3 +14,5 @@ This Directory Contains The Code Files Created By Jaivin Jacob
 6. VIT_GPT2_Full_Pipeline.ipynb - Full code which: 1. generating text description using VIT gpt, 2. Converting to audio file, 3. Finding silent part in the video(handles videos with background music), 4. Merge audio description with the video.
 
 7. SpaceTimeGPT_FineTunining.ipynb - Code to process the data for SpaceTime GPT, finetune the model and to generate text description with the pretrained model.
+
+8. Blip_Bulk_Descriptions.ipynb - Full code to run BLIP model to generate captions.
