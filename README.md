@@ -35,6 +35,7 @@ Automated_Video_Captioning_Tool/
 │   ├── requirements.txt
 │
 │-- Notebook_Files/
+|   ├── Blip_Bulk_Descriptions.ipynb
 │   ├── Custom_Model_Resnet_Features.ipynb
 │   ├── Data_Downloader.ipynb
 │   ├── Feature_Extraction_Resnet50.ipynb
@@ -81,6 +82,7 @@ Automated_Video_Captioning_Tool/
   - `VIT_GPT2.ipynb` → Tests **VIT-GPT2 model** on sample videos.
   - `VIT_GPT2_Full_Pipeline.ipynb` → End-to-end pipeline: caption generation, audio conversion, silent part detection, and final output.
   - `SpaceTimeGPT_FineTunining.ipynb` → Fine-tunes SpaceTimeGPT for video captioning.
+  - `Blip_Bulk_Descriptions.ipynb` → Gnerate descriptions frame by frame for each video.
 
 ---
 
@@ -96,8 +98,8 @@ Automated_Video_Captioning_Tool/
 - Provide a **user-friendly web interface**.
 
 ### **ACTION**
-✅ Built an end-to-end **deep learning pipeline** using **Vision Transformer (VIT) and GPT-2**.  
-✅ Developed **LSTM-based models** to enhance caption accuracy.  
+✅ Built an end-to-end **deep learning pipeline** using **BLIP and BART(and T5) models**.  
+✅ Developed **Transformer-based models** to enhance caption accuracy.  
 ✅ Integrated **Google TTS** for generating realistic audio descriptions.  
 ✅ Used **Apache Airflow** to schedule and automate video processing.  
 ✅ Designed an interactive **frontend** for seamless user interactions.
@@ -144,6 +146,11 @@ Simply open `index.html` in a web browser.
 - Enhance **caption accuracy** using **multi-modal transformers**.
 - Improve **speech synthesis quality** for more natural narration.
 - Develop an **API for third-party integration**.
+
+---
+
+## Live Project
+You can access the live project [here](https://thestorytellers.netlify.app/).
 
 ---
 
