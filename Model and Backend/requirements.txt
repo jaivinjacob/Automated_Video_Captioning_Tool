@@ -1,0 +1,10 @@
+streamlit
+gTTS
+moviepy
+pydub
+SpeechRecognition
+
+# Modal
+opencv-python
+torch
+transformers
